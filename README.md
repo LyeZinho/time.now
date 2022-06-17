@@ -15,24 +15,10 @@
 
 ### 🏠 [Homepage](www.readme.com)
 
-### ✨ [Demo](www.project.com)
-
-## Install
-
-```sh
-npm install
-```
-
 ## Usage
 
 ```sh
 npm run dev
-```
-
-## Run tests
-
-```sh
-npm run test
 ```
 
 ## Author
