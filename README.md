@@ -1,13 +1,10 @@
-<h1 align="center">Welcome to Teste 👋</h1>
+<h1 align="center">🕖Time.api</h1>
 <p>
   <a href="www.docs.com" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-no-red.svg" />
   </a>
   <a href="#" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
-  </a>
-  <a href="https://twitter.com/PedroKalebDeJe1" target="_blank">
-    <img alt="Twitter: PedroKalebDeJe1" src="https://img.shields.io/twitter/follow/PedroKalebDeJe1.svg?style=social" />
+    <img alt="License: CC0-1" src="https://img.shields.io/badge/License-CC0-yellow.svg" />
   </a>
 </p>
 
@@ -15,7 +12,7 @@
 
 ### 🏠 [Homepage](www.readme.com)
 
-## Usage
+## endpoint
 
 ```sh
 npm run dev
@@ -28,7 +25,6 @@ npm run dev
 * Website: www.lyepedro.studio
 * Twitter: [@PedroKalebDeJe1](https://twitter.com/PedroKalebDeJe1)
 * Github: [@LyeZinho](https://github.com/LyeZinho)
-* LinkedIn: [@Pedro Kaleb De Jesus](https://linkedin.com/in/Pedro Kaleb De Jesus)
 
 ## 🤝 Contributing
 
