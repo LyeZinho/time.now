@@ -10,13 +10,30 @@
 
 > Simple rest api for getting the current time
 
-### 🏠 [Homepage](www.readme.com)
+### 🏠 [Homepage](https://time-now.lyepedro.studio)
 
-## endpoint
+## endpoints
+
+<h3>Timezones</h3><br>
+
+Get time by timezone
+```sh
+/api/v1/time/timezone/<timezone-string>
+```
+
+Get list of timezones
+```sh
+/api/v1/time/timezone/<timezone-string>
+```
+<h3>Location</h3><br>
+
+Notice the latitude and the langitude is sliced by `*` example: `47.650499*-122.350070`
 
 ```sh
-npm run dev
+/api/v1/time/location/<lat*long>
 ```
+
+
 
 ## Author
 
