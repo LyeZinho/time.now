@@ -71,7 +71,10 @@ export default function Home() {
 
       <Box>
         <Stack spacing={6}>
-        <iframe id='kofiframe' src='https://ko-fi.com/lyepedro/?hidefeed=true&widget=true&embed=true&preview=true' style={styles.sponsorIframe} height='712' title='lyepedro'></iframe>
+        <iframe id='kofiframe' 
+        src='https://ko-fi.com/lyepedro/?hidefeed=true&widget=true&embed=true&preview=true' 
+        className={styles.sponsorIframe} 
+        title='lyepedro'></iframe>
         </Stack>
         </Box>
         <br /><br />
