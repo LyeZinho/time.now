@@ -11,7 +11,7 @@
   </a>
 </p>
 
-> Teste readme
+> Simple rest api for getting the current time
 
 ### 🏠 [Homepage](www.readme.com)
 
