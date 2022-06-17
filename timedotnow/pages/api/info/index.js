@@ -1,12 +1,5 @@
-/*
-Return the api info:
-
-info: ../info.json
-*/
-
-
 import { useRouter } from 'next/router'
-const info = require('../info.json')
+const info = require('./info.json')
 
 export default function handler(req, res) {
     try {
