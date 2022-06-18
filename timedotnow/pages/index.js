@@ -15,6 +15,7 @@ import {
   BreadcrumbLink,
   BreadcrumbSeparator,
 } from '@chakra-ui/react'
+import { Flex, Spacer } from '@chakra-ui/react'
 
 
 //Icons
@@ -24,6 +25,10 @@ import {
    WarningIcon,
    ChevronRightIcon
 } from '@chakra-ui/icons'
+
+//Components
+import  SponsorModal from '../components/sponsorButton'
+
 
 const myLoader = ({ src, width, quality }) => {
   return `https://example.com/${src}?w=${width}&q=${quality || 75}`
@@ -44,15 +49,34 @@ export default function Home() {
           fontSize="sm"
           p={4}
           textAlign="left"
+          fontWeight="bold"
+          textTransform="uppercase"
+          letterSpacing="0.1em"
         >
-          <Breadcrumb spacing='8px' separator={<ChevronRightIcon color='gray.500' />}>
-            <BreadcrumbItem>
-              <BreadcrumbLink href='#'>Home</BreadcrumbLink>
-            </BreadcrumbItem>
-            <BreadcrumbItem>
-              <BreadcrumbLink href='#'>Home</BreadcrumbLink>
-            </BreadcrumbItem>
+          <Flex>
+          <Box p='4'>
+            <Breadcrumb spacing='8px' separator={<ChevronRightIcon color='gray.500' />}>
+              <BreadcrumbItem>
+                <BreadcrumbLink href='#'>
+                  <Heading as='h5' size='sm'>
+                    Home
+                  </Heading>
+                </BreadcrumbLink>
+              </BreadcrumbItem>
+              <BreadcrumbItem>
+              <BreadcrumbLink href='#'>
+                  <Heading as='h5' size='sm'>
+                    Home
+                  </Heading>
+                </BreadcrumbLink>
+              </BreadcrumbItem>
           </Breadcrumb>
+          </Box>
+          <Spacer />
+          <Box p='4'>
+              <SponsorModal />
+          </Box>
+          </Flex>
         </Box>
       <br /><br />
       <Container maxWidth="lg">
@@ -69,9 +93,6 @@ export default function Home() {
         </Box>
       </Container>
       <footer>
-      <br /><br /><br /><br /><br /><br /><br /><br /><br />
-      <br /><br /><br /><br /><br /><br /><br /><br /><br />
-      <br /><br /><br />
         <Box
           as="footer"
           bg="black"
