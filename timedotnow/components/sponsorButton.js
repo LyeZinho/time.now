@@ -18,29 +18,38 @@ import {
     ModalCloseButton,
     useDisclosure
 } from '@chakra-ui/react'
+import { useColorMode } from "@chakra-ui/react";
+
 
 
 
 
 export default function SponsorModal() {
     const { isOpen, onOpen, onClose } = useDisclosure()
+    const { colorMode, toggleColorMode } = useColorMode()
     return (
       <>
         <Button 
         colorScheme='teal'
         onClick={onOpen}>❤ Sponsor</Button>
-        <Modal closeOnOverlayClick={false} isOpen={isOpen} onClose={onClose}>
+        <Modal 
+        closeOnOverlayClick={false} 
+        isOpen={isOpen} 
+        onClose={onClose}
+        size='sm'
+        >
           <ModalOverlay />
           <ModalContent>
             <ModalHeader>Support this project</ModalHeader>
             <ModalCloseButton />
-            <ModalBody pb={6}>
+            <ModalBody 
+              padding={0}
+              borderColor={colorMode}
+            >
               <iframe 
                 id='kofiframe' 
                 src='https://ko-fi.com/lyepedro/?hidefeed=true&widget=true&embed=true&preview=true' 
                 className={styles.sponsorIframe} 
-                height='700px'
-                width='100%'
                 title='lyepedro'
                 >
               </iframe>

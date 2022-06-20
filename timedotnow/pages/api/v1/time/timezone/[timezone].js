@@ -32,7 +32,7 @@ function currentTime(rawTz){
     return timedate
 }
 
-export default function handler(req, res) {
+export default async function handler(req, res) {
     const { timezone } = req.query
     try {
         const time = currentTime(timezone)

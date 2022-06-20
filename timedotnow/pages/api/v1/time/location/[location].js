@@ -30,7 +30,7 @@ function currentTime(rawTz){
 }
 
 
-export default function handler(req, res) {
+export default async function handler(req, res) {
     const { location } = req.query
     try {
         let geo = filter(location)
