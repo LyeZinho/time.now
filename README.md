@@ -23,7 +23,7 @@ Get time by timezone
 
 Get list of timezones
 ```sh
-/api/v1/time/timezone/<timezone-string>
+/api/v1/time/timezone/list
 ```
 <h3>Location</h3><br>
 
