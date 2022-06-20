@@ -5,7 +5,6 @@ import Script from 'next/script';
 import Router from "next/router";
 import Link from 'next/link'
 
-
 //React
 import React, { useState, useEffect } from 'react';
 
