@@ -32,15 +32,17 @@ export default function SponsorModal() {
         <Modal closeOnOverlayClick={false} isOpen={isOpen} onClose={onClose}>
           <ModalOverlay />
           <ModalContent>
-            <ModalHeader>Apoie este projeto</ModalHeader>
+            <ModalHeader>Support this project</ModalHeader>
             <ModalCloseButton />
             <ModalBody pb={6}>
               <iframe 
                 id='kofiframe' 
                 src='https://ko-fi.com/lyepedro/?hidefeed=true&widget=true&embed=true&preview=true' 
                 className={styles.sponsorIframe} 
-                height='800px'
-                title='lyepedro'>
+                height='700px'
+                width='100%'
+                title='lyepedro'
+                >
               </iframe>
             </ModalBody>
           </ModalContent>
