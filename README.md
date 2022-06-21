@@ -6,6 +6,9 @@
   <a href="#" target="_blank">
     <img alt="License: CC0-1" src="https://img.shields.io/badge/License-CC0-yellow.svg" />
   </a>
+  <a href="" target="_blank">
+    <img alt="Status" src="https://vercelbadge.vercel.app/api/LyeZinho/time.now" />
+  </a>
 </p>
 
 > Simple rest api for getting the current time
