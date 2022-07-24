@@ -19,6 +19,10 @@
 
 <h3>Timezones</h3><br>
 
+### Curently not working❗❗❗
+
+
+
 Get time by timezone
 ```sh
 /api/v1/time/timezone/<timezone-string>
