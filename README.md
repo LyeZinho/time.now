@@ -19,7 +19,7 @@
 
 <h3>Timezones</h3><br>
 
-### Curently not working❗❗❗
+### Curently the api is not working and probably i wont fix❗❗❗
 
 
 
