@@ -50,11 +50,3 @@ Notice the latitude and the langitude is sliced by `*` example: `47.650499*-122.
 * Twitter: [@PedroKalebDeJe1](https://twitter.com/PedroKalebDeJe1)
 * Github: [@LyeZinho](https://github.com/LyeZinho)
 
-## 🤝 Contributing
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U7U77O1P6)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
